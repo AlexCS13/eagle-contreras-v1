@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EAGLE - CONTACTO</title>
+	<!-- LINK FUENTE GOOGLE -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- LINKEAR ARCHIVOS CSS -->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="grid__contacto">
+		<!-- INICIO ENCABEZADO -->
+		<header class="header header__grid">
+			<!-- INICIO LOGO -->
+			<div class="header__logo animate__backInDown">
+				<a href="../index.html">
+					<img src="../assets/img/logo_eagle.png" alt="logo_eagle">
+				</a>
+			</div>
+			<!-- CIERRE LOGO -->
+			<!-- INICIO NAV -->
+			<nav class="navBar">
+				<!-- LISTA CON VIÑETAS -->
+				<ul class="header__nav animate__backInDown">
+					<li class="nav__item nav_item--background nav_item--fontSize nav_item--fontPadding">
+						<a href="../index.html">HOME</a>
+					</li>
+					<li class="nav__item nav_item--background nav_item--fontSize nav_item--fontPadding">
+						<a href="productos.html">PRODUCTOS</a>
+					</li>
+					<li class="nav__item nav_item--background nav_item--fontSize nav_item--fontPadding">
+						<a href="experiencias.html">EXPERIENCIAS</a>
+					</li>
+					<li class="nav__item nav_item--background nav_item--fontSize nav_item--fontPadding">
+						<a href="quienes_somos.html">QUIENES SOMOS</a>
+					</li>
+					<li class="nav__item nav_item--background nav_item--fontSize nav_item--fontPadding">
+						<a href="contacto.html">CONTACTO</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- CIERRE ENCABEZADO -->
+		<!-- INICIO CONTENIDO -->
+		<main class="main">
+			<div class="blur">
+				<div class="main__contacto">
+					<section class="card">
+						<div class="card__titulos animate__backInLeft">
+							<h1>CONTACTO</h1>
+						</div>
+						<div class="texto__contacto1 animate__backInLeft">
+							<p>En EAGLE Simultion & Training nos importa saber de ti, de tus proyectos y de tus ganas de aprender a volar, asi que sientete en la libertad de comunicarte con nosotros!</p>
+						</div>
+							<!-- TABLA -->
+						<div class="tabla__links">
+							<div class="links animate__backInLeft">
+								<div class="mailImg contacto__img">
+									<img src="../assets/img/mail.png" alt="mail_logo">
+								</div>
+								<a href="mailto: eaglesimulationtraining@gmail.com" target="_blank" class="mailLink contacto__link">
+									<h3>Envianos un correo con todas tus inquietudes, hazme click! </h3>
+								</a>
+								<div class="phoneImg contacto__img">
+									<img src="../assets/img/phone.png" alt="telefono_logo">
+								</div>
+								<div class="phoneLink contacto__link">
+									<a href="https://wa.me/+573107882098" target="_blank">
+										<h3>Para hablar directamente con Alexander Contreras, hazme click!</h3>
+									</a>
+									<a href="https://wa.me/+573144145130" target="_blank">
+										<h3>Para hablar directamente con Nicolas Aguilar, hazme click!</h3>
+									</a>
+								</div>
+								<div class="fbImg contacto__img">
+									<img src="../assets/img/facebook.png" alt="facebook_logo">
+								</div>
+								<a href="https://www.facebook.com/AlexanderContreasS" target="_blank" class="fbLink contacto__link">
+									<h3>Pagina en construcción pero puedes contactarnos por aquí, hazme click!</h3>
+								</a>
+								<div class="igImg contacto__img">
+									<img src="../assets/img/instagram.png" alt="instagram_logo">
+								</div>
+								<a href="https://www.instagram.com/eaglesimulation/" target="_blank" class="igLink contacto__link">
+									<h3>Aqui encontraras nuestro Instagram, hazme click!</h3>
+								</a>
+							</div>
+						</div>
+						<!-- INICIO FORMULARIO DE CONTACTO -->
+						<div class="contact__form">
+							<div class="formulario__contacto animate__bounceInRight">
+								<p>Puedes llenar el siguiente formulario y nos pondremos en contacto contigo!</p>
+								<form action="#">
+									<label for="nombre">NOMBRE:
+										<input type="text" name="nombre" placeholder="NOMBRE">
+										<input type="text" name="nombre" placeholder="APELLIDO">
+									</label>
+									<br>
+									<label for="mail">MAIL:
+										<input type="text" name="mail" placeholder="@">
+									</label>
+									<br>
+									<label for="telefono">TELEFONO:
+										<input type="text" name="telefono" placeholder="+57...">
+									</label>
+									<br>
+									<div>
+										Quiero:
+										<select name="interes" id="interes">
+											<option value="hablar">Hablar con alguien :D</option>
+											<option value="productos">Saber mas de sus productos</option>
+											<option value="experiencia">Conocer sobre la experiencia EAGLE Simulation & Training</option>
+											<option value="experiencia">Otra cosa :S</option>
+										</select>
+									</div>
+									<div>
+										COMENTARIOS:
+										<br>
+										<textarea name="" id="" cols="30" rows="10" placeholder="HABLANOS :3">
+										</textarea>
+									</div>
+									<br>
+									<div>
+										Deseas que nos pongamos en contacto contigo?
+									</div>
+									<div>
+										Telefono
+										<input type="radio" name="contactar" value="telefono">
+									</div>
+									<div>
+										Correo
+										<input type="radio" name="contactar" value="correo">
+									</div>
+									<div>
+										Los dos
+										<input type="radio" name="contactar" value="telycorreo">
+									</div>
+									<div>
+										<h6>Acepto termino y condiciones sobre suministro de datos personales</h6>
+										<input type="checkbox" name="aceptar" value="1">
+									</div>
+									<input type="submit" value="ENVIAR">
+									<input type="reset" value="LIMPIAR">
+									<input type="button" value="NO QUIERO >:(">
+								</form>
+							</div>
+						</div>
+					<!-- CIERRE FORMULARIO DE CONTACTO -->
+					</section>
+				</div>
+			</div>
+		</main>
+		<!-- CIERRE CONTENIDO -->
+		<footer class="footer">
+			<div class="footer__grid animate__bounceInUp">
+				<!-- INICIO ESLOGAN -->
+				<div class="footer__eslogan">
+					<h2>PUT YOUR DREAMS OVER OUR WINGS AND WE MAKE THEM FLY</h2>
+				</div>
+				<!-- CIERRE ESLOGAN -->
+				<!-- INICIO REDES SOCIALES -->
+				<div class="footer__redes">
+					<div class="fb__icono">
+						<a href="https://www.facebook.com/AlexanderContreasS" target="_blank" class="footer__redesFacebook">
+							<img src="../assets/img/facebook.png" alt="facebook_logo">
+						</a>
+					</div>
+					<div class="ig__icono">
+						<a href="https://www.instagram.com/eaglesimulation/" target="_blank" class="footer__redesInstagram">
+							<img src="../assets/img/instagram.png" alt="instagram_logo">
+						</a>
+					</div>
+				</div>
+				<!-- CIERRE REDES SOCIALES -->
+			</div>
+		</footer>
+		<!-- CIERRE FOOTER -->
+	</div>
+	<script src="../js/wow.min.js"></script>
+	<script> new WOW().init();</script>
+</body>
+</html>
